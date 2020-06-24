@@ -19,14 +19,7 @@
 <input type=text class="form-control">
 <span class="input-group-text"><i class="fa fa-search"></i></span>          
 </div>
-</div>
-<div class="menu-bar">
-<ul>
-    <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
-    <li><a href="InsertData.php">Insert</a></li>
-<li><a href="#">Cart</a></li>
-</ul>    
-</div>
+
 <title>Insert data to PostgreSQL with PHP</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
@@ -36,7 +29,8 @@ list-style: none;
 </style>
 
 </head>
-<h1>DATABASE CONNECTION</h1>
+<h1>ATN Store</h1>
+<h3>DATABASE CONNECTION</h3>
 
 <?php
 ini_set('display_errors', 1);
@@ -103,6 +97,14 @@ echo '<p>product information:</p>';
       ?>
     </tbody>
   </table>
+</div>
+</div>
+<div class="menu-bar">
+<ul>
+    <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
+    <li><a href="InsertData.php">Insert</a></li>
+<li><a href="#">Cart</a></li>
+</ul>    
 </div>
 </body>
 </html>

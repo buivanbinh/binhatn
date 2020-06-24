@@ -34,7 +34,7 @@ list-style: none;
 
 <?php
 ini_set('display_errors', 1);
-echo "Hello Cloud Computing class 0705!";
+echo "WELCOME TO DATABASE'S ATN Store!";
 ?>
 
 <?php
@@ -66,7 +66,7 @@ $stmt = $pdo->prepare($sql);
 $stmt->setFetchMode(PDO::FETCH_ASSOC);
 $stmt->execute();
 $resultSet = $stmt->fetchAll();
-echo '<p>product information:</p>';
+echo '<p>Product Information:</p>';
 
 ?>
 <div id="container">

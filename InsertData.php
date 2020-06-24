@@ -30,6 +30,13 @@
             </form>
         </ul>
     </div>
+    <div class="menu-bar">
+<ul>
+    <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
+    <li><a href="ConnectToDB.php">View</a></li>
+<li><a href="#">Cart</a></li>
+</ul>    
+</div>
 
 
 

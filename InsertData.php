@@ -29,7 +29,7 @@
                 <li><input type="text" name="price" /></li>
                 <li><input type="submit" value="Submit" /></li>
             </form>
-                <li><a href="index.php">Home</a></li>
+            <li><a href="index.php" title="Home" class="active">Home</a></li>
                 <li><a href="ConnectToDB.php">View</a></li>
                 <li><a href="#">Cart</a></li>
         </ul>

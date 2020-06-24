@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-      <head>
+<body>
+<head>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -35,8 +36,6 @@ list-style: none;
 </style>
 
 </head>
-<body>
-
 <h1>DATABASE CONNECTION</h1>
 
 <?php

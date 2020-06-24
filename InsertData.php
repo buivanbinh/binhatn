@@ -29,8 +29,8 @@
                 <li><input type="text" name="price" /></li>
                 <li><input type="submit" value="Submit" /></li>
             </form>
-                <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
-                <li><a href="InsertData.php">Insert</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="ConnectToDB.php">View</a></li>
                 <li><a href="#">Cart</a></li>
         </ul>
         

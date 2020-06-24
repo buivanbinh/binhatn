@@ -20,7 +20,7 @@
 <span class="input-group-text"><i class="fa fa-search"></i></span>          
 </div>
 
-<title>Insert data to PostgreSQL with PHP</title>
+<title>ANT DB Sever</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 li {

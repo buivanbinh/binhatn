@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html>
+      <head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script language="javascript" src="Register.js"></script>    
+</head>
+<body>
+<div class="top-nav-bar">
+<div class="search-box">
+<i class="fa fa-bars" id="menu-btn" onclick="openmenu()"></i>
+<i class="fa fa-bars" id="close-btn" onclick="closemenu()"></i>
+<a href="index.php"><img src="Images/Logo.png" class="logo"></a>
+<input type=text class="form-control">
+<span class="input-group-text"><i class="fa fa-search"></i></span>          
+</div>
+</div>
+<div class="menu-bar">
+<ul>
+<li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
+<li><a href="#">Register</a></li>
+<li><a href="#">Log In</a></li>
+</ul>    
+</div>
+<title>Insert data to PostgreSQL with PHP</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style>
+li {
+list-style: none;
+}
+</style>
+
+</head>
 <body>
 
 <h1>DATABASE CONNECTION</h1>
-<head>
-    <meta charset="UTF-8">
-    <title>Bootstrap 3 Simple Tables</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        .example {
-            margin: 20px;
-        }
-    </style>
-</head>
 
-<body>
-    <div class="example">
-        <div class="container">
-            <div class="row">
-                <h2>Table Reponsive</h2>
-                <div class="table-responsive">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>ID</th>
-                                <th>Name</th>
-                                <th>Price</th>
-
-                            </tr>
-                        </thead>
-
-                    </table>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</body>
 <?php
 ini_set('display_errors', 1);
 echo "Hello Cloud Computing class 0705!";

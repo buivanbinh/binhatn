@@ -3,7 +3,43 @@
 <body>
 
 <h1>DATABASE CONNECTION</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap 3 Simple Tables</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        .example {
+            margin: 20px;
+        }
+    </style>
+</head>
 
+<body>
+    <div class="example">
+        <div class="container">
+            <div class="row">
+                <h2>Table Reponsive</h2>
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>Price</th>
+
+                            </tr>
+                        </thead>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
 <?php
 ini_set('display_errors', 1);
 echo "Hello Cloud Computing class 0705!";

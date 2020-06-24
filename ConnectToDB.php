@@ -22,9 +22,9 @@
 </div>
 <div class="menu-bar">
 <ul>
-<li><a href="#"><i class="fa fa-shopping-basket"></i>Cart</a></li>
-<li><a href="#">Register</a></li>
-<li><a href="#">Log In</a></li>
+    <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
+    <li><a href="ConnectToDB.php">Insert</a></li>
+<li><a href="#">Cart</a></li>
 </ul>    
 </div>
 <title>Insert data to PostgreSQL with PHP</title>

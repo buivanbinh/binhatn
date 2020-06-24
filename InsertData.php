@@ -17,7 +17,11 @@
         <h1>ATN Store</h1>
         <h2>INSERT DATA TO DATABASE</h2>
         <h2>Enter data into table</h2>
-
+        <ul>
+            <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
+            <li><a href="InsertData.php">Insert</a></li>
+            <li><a href="#">Cart</a></li>
+        </ul> 
         <ul>
             <form name="InsertData" action="InsertData.php" method="POST">
                 <li>ID:</li>
@@ -29,14 +33,9 @@
                 <li><input type="submit" value="Submit" /></li>
             </form>
         </ul>
+        
     </div>
-    <div class="menu-bar">
-<ul>
-    <li><a href="index.php"><i class="fa fa-shopping-basket"></i>Home</a></li>
-    <li><a href="ConnectToDB.php">View</a></li>
-<li><a href="#">Cart</a></li>
-</ul>    
-</div>
+  
 
 
 

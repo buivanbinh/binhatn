@@ -1,0 +1,343 @@
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+@media all and (maxwidth:320px) {
+    body {
+        background: #e7e7e7;
+    }
+}
+
+body {
+    font-family: tahoma;
+    font-size: 13px;
+    width: 90%;
+    margin: 0px auto;
+    line-height: 1.42857143;
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+    text-align: center;
+}
+
+#main {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+#main #left {
+    width: 17%;
+    float: left;
+    min-height: 300px;
+    text-align: left;
+    margin-right: 4%;
+}
+
+#main #right {
+    width: 69%;
+    float: left;
+    margin-left: 22%;
+    min-height: 900px;
+    margin: 10px auto;
+    text-indent: 20px;
+    line-height: 10px;
+    text-align: left;
+}
+
+#menu_top {
+    width: 100%;
+}
+
+#menu_top .login {
+    float: right;
+    width: 47.32%;
+    font-size: 1vw;
+}
+
+#menu_top .login ul {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+#menu_top .login ul li {
+    list-style: none;
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#menu_top .login ul li a {
+    text-decoration: none;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid #FFF;
+    font-size: 1vw;
+    text-align: right;
+    margin-right: 10px;
+    border: 1px solid #333;
+    border-radius: 15%;
+    margin-top: 8px;
+    background: #388cd1;
+    font-size: 1vw;
+}
+
+#menu_top .menutop {
+    width: 100%;
+}
+
+#menu_top .menutop ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top .menutop ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top .menutop ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #ccc;
+    font-size: 1vw;
+    background: black;
+}
+
+#menu_top ul li a.active {
+    background: #1949b5;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#main #right .sanpham a img {
+    width: 70%;
+}
+
+#main #right .sanpham1 a img {
+    width: 70%;
+}
+
+#main #right .sanpham {
+    width: 80%;
+    margin: left;
+    display: flex;
+    margin-left: 40px;
+    margin-top: 1px;
+}
+
+#main #right .sanpham1 {
+    width: 80%;
+    margin: left;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#main #right .sanpham .aorusz490ex {
+    margin-right: 10px;
+    border: 1px solid red;
+    width: 50%;
+}
+
+#main #right .sanpham1 .aorusz490ex {
+    margin-right: 10px;
+    border: 1px solid red;
+    width: 50%;
+}
+
+#main #right .sanpham .aorusz490ex h3 {
+    line-height: 1.3em;
+    font-size: 1.1vw;
+    color: red;
+    font-weight: none;
+    margin-right: 2px;
+}
+
+#main #right .sanpham .aorusz490ex h4 {
+    line-height: 1.3em;
+    font-size: 12px;
+    font-weight: none;
+    margin-right: 2px;
+}
+
+#main #right .sanpham1 .aorusz490ex h3 {
+    line-height: 1.3em;
+    font-size: 1.1vw;
+    color: red;
+    font-weight: none;
+    margin-right: 2px;
+}
+
+#main #right .thanhtruot {
+    color: #fff;
+    background: red url(../image/dealhot.webp) no-repeat 3px;
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    line-height: 35px;
+}
+
+#main #right .thanhtruot h2 {
+    margin-left: 17px;
+    line-height: 30px;
+}
+
+#main #left .menu_left ul {
+    scroll-padding: opx;
+    text-align: left;
+    padding-left: 0px;
+    margin-left: 5px;
+    border: 2px solid black;
+}
+
+#main #left .menu_left ul li {
+    list-style: none;
+    border-bottom: 3px solid #fff;
+    text-align: center;
+}
+
+#main #left .menu_left ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    margin-top: 1px;
+    text-align: left;
+    background: #333;
+    color: #fff;
+    font-size: 1vw;
+    text-indent: 15px;
+}
+
+#main #left .menu_left .danhmuc {
+    color: black;
+    background: #fff url(../image/iconmenu1.png) no-repeat 1px;
+    border: 3px solid red;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#main #left .menu_left .danhmuc h3 {
+    margin-left: 40px;
+    line-height: 10px;
+    font-size: 1vw;
+}
+
+#main #left .menu_left ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    border-bottom: 1px #ccc;
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    margin-top: 50px;
+}
+
+#footer .tfooter {
+    color: #ccc;
+    background: #333 url(../image/iconfooter.png) no-repeat 1px;
+    width: 100%;
+    text-align: left;
+    height: 28px;
+    line-height: 30px;
+}
+
+#footer .tfooter h4 {
+    margin-left: 35px;
+}
+
+#footer #right {
+    float: left;
+    width: 50%;
+}
+
+#footer #left {
+    float: left;
+    width: 50%;
+}
+
+#footer #left .thongtin {
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    line-height: 1px;
+}
+
+#footer #left .sdt {
+    text-align: left;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
+#footer #left .sdt .sdt1 {
+    width: 50%;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+footer #right {
+    float: left;
+    width: 50%;
+}
+
+#footer #right .thongtin {
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    line-height: 1px;
+    font-size: 1vw;
+}
+
+#footer #right .sdt {
+    text-align: left;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
+#footer #right .sdt .sdt1 {
+    width: 50%;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+#footer #right .sdt .sdt1 h4 {
+    font-size: 0.9vw;
+    width: 100%;
+}
+
+#footer #right .sdt .sdt1 h5 {
+    font-size: 0.9vw;
+}
+
+#footer #left .sdt .sdt1 h4 {
+    font-size: 0.9vw;
+}

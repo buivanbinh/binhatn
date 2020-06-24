@@ -1,0 +1,311 @@
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+@media all and (maxwidth:320px) {
+    body {
+        background: #e7e7e7;
+    }
+}
+
+body {
+    font-family: tahoma;
+    font-size: 13px;
+    width: 90%;
+    margin: 0px auto;
+    line-height: 1.42857143;
+    text-align: center;
+}
+
+#banner {
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li {
+    list-style: none;
+    float: left;
+}
+
+#menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #FFF;
+    padding: 0px 20px 0px 20px;
+    border-right: 1px solid #ccc;
+    font-size: 1vw;
+}
+
+#menu_top ul li a.active {
+    background: #1949b5;
+}
+
+#main {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+}
+
+#main .thanhtruot {
+    color: black;
+    background: #f7f7f7 url(../image/icon\ menu.png) no-repeat 3px;
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    line-height: 35px;
+}
+
+#main .thanhtruot h3 {
+    margin-left: 40px;
+}
+
+#main #tong {
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    margin-top: 0px;
+}
+
+#main #chan {
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    margin-top: 50px;
+}
+
+#main #tong #left {
+    width: 48%;
+    float: left;
+}
+
+#main #tong #left .chitiet h5 {
+    color: black;
+    text-align: left;
+    font-size: 18px;
+}
+
+#main #tong #right {
+    width: 50%;
+    float: left;
+    float: right;
+}
+
+#main #tong .giaithich h5 {
+    font-size: 1vw;
+}
+
+#main #tong #left .sanpham img {
+    width: 95%;
+}
+
+#main #tong #right .chitiet {
+    text-align: left;
+    margin-top: 60px;
+    font-size: 1vw;
+}
+
+#main #tong #right .gia {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#main #tong #right .gia .productgia {
+    color: red;
+    font-size: 1.4vw;
+    margin-left: 15px;
+}
+
+#main #tong #right .gia .price-text {
+    font-size: 1vw;
+}
+
+#main #right .motachitiet {
+    margin: left;
+    color: red;
+    text-align: left;
+    font-size: 1vw;
+    border-bottom: 1px solid black;
+    line-height: 1px;
+    margin-top: 5px;
+}
+
+#main #tong #right .chitiet h1 {
+    color: red;
+}
+
+#main #tong #right .giaithich {
+    text-align: left;
+    font-size: 13px;
+    font-size: 1vw;
+}
+
+#main #tong #right .muahang {
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+#main #tong #right .muahang input {
+    background: red;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    padding: 10px 14px;
+    border: 1px solid red;
+    overflow: hidden;
+    border-radius: 5%;
+    color: #FFF;
+}
+
+main #tong #right .muahang ::-ms-value {
+    font-size: 14;
+    color: #fff;
+}
+
+#main #chan h2 {
+    text-align: left;
+    background: #f7f7f7;
+    width: 100%;
+    height: 30px;
+}
+
+#main #chan .sanphamlq img {
+    width: 100%;
+}
+
+#main #chan .sanphamlq {
+    width: 70%;
+    margin: left;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 90px;
+    padding: opx 20px 0px 20px;
+}
+
+#main #chan .sanphamlq .quangcao {
+    width: 50%;
+    border: 1px solid red;
+    margin-left: 10px;
+}
+
+#main #chan .sanphamlq .quangcao h3 {
+    color: red;
+    font-size: 1.1vw;
+}
+
+#main #chan .sanphamlq .quangcao h4 {
+    font-size: 0.8vw;
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    margin-top: 50px;
+}
+
+#footer .tfooter {
+    color: #ccc;
+    background: #333 url(../image/iconfooter.png) no-repeat 1px;
+    width: 100%;
+    text-align: left;
+    height: 28px;
+    line-height: 30px;
+}
+
+#footer .tfooter h4 {
+    margin-left: 35px;
+}
+
+#footer #right {
+    float: left;
+    width: 50%;
+}
+
+#footer #left {
+    float: left;
+    width: 50%;
+}
+
+#footer #left .thongtin {
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    line-height: 1px;
+}
+
+#footer #left .sdt {
+    text-align: left;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
+#footer #left .sdt .sdt1 {
+    width: 50%;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+footer #right {
+    float: left;
+    width: 50%;
+}
+
+#footer #right .thongtin {
+    float: left;
+    text-align: left;
+    color: black;
+    margin-top: 0px;
+    line-height: 1px;
+    font-size: 1vw;
+}
+
+#footer #right .sdt {
+    text-align: left;
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    line-height: 1px;
+}
+
+#footer #right .sdt .sdt1 {
+    width: 50%;
+    margin-left: 10px;
+    width: 100%;
+    float: left;
+}
+
+#footer #right .sdt .sdt1 h4 {
+    font-size: 0.9vw;
+    width: 100%;
+}
+
+#footer #right .sdt .sdt1 h5 {
+    font-size: 0.9vw;
+}
+
+#footer #left .sdt .sdt1 h4 {
+    font-size: 0.9vw;
+}

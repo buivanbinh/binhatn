@@ -15,7 +15,7 @@
         <div class="menutop">
             <ul>
                 <li><a href="#" title="Home" class="active">Home</a></li>
-                <li><a href="Insert.html" title=" Insert">Insert </a></li>
+                <li><a href="InsertData.php" title=" Insert">Insert </a></li>
                 <li><a href="#" title="News">News</a></li>
                 <li><a href="#" title="View">View</a></li>
                 <li><a href="#" title="Update">Update</a></li>
